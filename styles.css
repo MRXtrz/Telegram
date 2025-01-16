@@ -403,7 +403,8 @@ body{
 
 .eighth .text .day{
     position: absolute;
-    left:510px;           
+    left:510px; 
+    bottom:58px;
 }
 
 .eighth .text .number{
