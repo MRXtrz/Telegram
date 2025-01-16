@@ -1,0 +1,442 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    height: 900px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.header{
+    padding: 20px 10px;
+    /* border-bottom: 1px solid #333; */
+    position: relative;
+    
+}
+.center .avatar img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid rgba(47, 95, 255, 0.61)
+}
+
+.center .avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left div{
+    display: flex;
+    justify-content: center;
+    
+}
+ .left img{
+
+    width: 32px; 
+    filter: brightness(0) saturate(100%) invert(27%) sepia(87%) saturate(653%) hue-rotate(191deg) brightness(92%) contrast(85%);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header button{
+    margin:10px 16px;
+    background:none;
+    border: none;
+    font-size: 20px;
+    color: rgb(83, 83, 252);
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    width: 460px;
+    height: 45px;
+    color:gray;
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left :40px;
+    border-radius: 30px;
+    border-bottom: 1px solid #333;
+}
+.search img{
+    width: 34px;
+    
+}
+.list{
+    padding: 10px 0px 0px;
+    
+    background-color: #333;
+
+}
+.list h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', ;
+    color: aliceblue;
+    
+}
+
+.list p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 14px;
+    margin-right: 120px;
+    color: #808080;
+
+}
+/* first */
+.first{
+    display: flex;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    position: relative;
+    
+    
+}
+
+.first .photo1{
+    color: white;
+    background-color: rgb(250, 172, 26);
+    padding: 18px 25px;
+    margin-left: 8px;
+    margin-right: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+.first .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+.first .text .day{
+    position: absolute;
+    left:510px;
+    bottom:58px
+}
+.first .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+/* second */
+.second{
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-top: 2px solid #3a3838;
+    padding-top: 10px;
+}
+.second .photo2 img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+.second .photo2 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+.second .text .day{
+    position: absolute;
+    left:510px;
+    bottom:58px
+}
+.second .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+.third{
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-top: 2px solid #3a3838;
+    padding-top: 10px;
+}
+.third .photo3 img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.third .photo3 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.third .text .day{
+    position: absolute;
+    left:510px;
+    bottom:58px
+}
+
+.third .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+
+.fourth{
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-top: 2px solid #3a3838;
+    padding-top: 10px;
+}
+.fourth .photo4 img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+.fourth .photo4 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.fourth .text .day{
+    position: absolute;
+    left:510px;
+    bottom:58px
+}
+
+.fourth .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+.fifth{
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-top: 2px solid #3a3838;
+    padding-top: 10px;
+}
+
+.fifth .photo5 img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+.fifth .photo5 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.fifth .text .day{
+    position: absolute;
+    left:510px;
+    bottom:58px
+}
+
+.fifth .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+
+.sixth{
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-top: 2px solid #3a3838;
+    padding-top: 10px;
+}
+
+.sixth .photo6 img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.sixth .photo6 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.sixth .text .day{
+    position: absolute;
+    left:510px;
+    bottom:58px
+}
+
+.sixth .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+
+.seventh{
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-top: 2px solid #3a3838;
+    padding-top: 10px;
+}
+
+.seventh .photo7 img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.seventh .photo7 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.seventh .text .day{
+    position: absolute;
+    left:510px;
+    bottom:58px
+}
+
+.seventh .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+
+.eighth{
+    display: flex;
+    position: relative;
+    padding-bottom: 5px;
+    border-top: 2px solid #3a3838;
+    padding-top: 10px;
+}
+
+.eighth .photo8 img{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.eighth .photo8 .text{ 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.eighth .text .day{
+    position: absolute;
+    left:510px;           
+}
+
+.eighth .text .number{
+    position: absolute;
+    left:510px;
+    bottom:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:rgb(12, 12, 253);
+    padding: 3px 8px ;
+    border-radius: 90%
+}
+.navbar {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a1a1a;
+    padding: 10px 0;
+    margin: 0px -1px;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar a img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
